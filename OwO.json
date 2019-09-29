@@ -1,0 +1,636 @@
+{
+    "颜文字": {
+        "type": "emoticon",
+        "container": [
+                {
+                    "icon": "OωO",
+                    "text": "Author: DIYgod",
+                    "write": "OωO",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "|´・ω・)ノ",
+                    "text": "Hi",
+                    "write": "OωO",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "ヾ(≧∇≦*)ゝ",
+                    "text": "开心",
+                    "write": "OωO",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "(☆ω☆)",
+                    "text": "星星眼",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "（╯‵□′）╯︵┴─┴",
+                    "text": "掀桌",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "￣﹃￣",
+                    "text": "流口水",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "(/ω＼)",
+                    "text": "捂脸",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "∠( ᐛ 」∠)＿",
+                    "text": "给跪",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "(๑•̀ㅁ•́ฅ)",
+                    "text": "Hi",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "→_→",
+                    "text": "斜眼",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "୧(๑•̀⌄•́๑)૭",
+                    "text": "加油",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "٩(ˊᗜˋ*)و",
+                    "text": "有木有WiFi",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "(ノ°ο°)ノ",
+                    "text": "前方高能预警",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "(´இ皿இ｀)",
+                    "text": "我从未见过如此厚颜无耻之人",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "⌇●﹏●⌇",
+                    "text": "吓死宝宝惹",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "(ฅ´ω`ฅ)",
+                    "text": "已阅留爪",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "(╯°A°)╯︵○○○",
+                    "text": "去吧大师球",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "φ(￣∇￣o)",
+                    "text": "太萌惹",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "ヾ(´･ ･｀｡)ノ\"",
+                    "text": "咦咦咦",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "( ง ᵒ̌皿ᵒ̌)ง⁼³₌₃",
+                    "text": "气呼呼",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "(ó﹏ò｡)",
+                    "text": "我受到了惊吓",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "Σ(っ °Д °;)っ",
+                    "text": "什么鬼",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "( ,,´･ω･)ﾉ\"(´っω･｀｡)",
+                    "text": "摸摸头",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "╮(╯▽╰)╭ ",
+                    "text": "无奈",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "o(*////▽////*)q ",
+                    "text": "脸红",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "＞﹏＜",
+                    "text": "",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "( ๑´•ω•) \"(ㆆᴗㆆ)",
+                    "text": "",
+                    "write": "OωO"
+                },
+                {
+                    "icon": "(｡•ˇ‸ˇ•｡)",
+                    "text": ""
+                    "write": "OωO"
+                }
+        ]
+    },
+    "Emoji": {
+        "type": "emoji",
+        "container": [
+            {
+                "icon": "😂",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😀",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😅",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😊",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "🙂",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "🙃",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😌",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😍",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😘 ",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😜",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😝",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😏",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😒",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "🙄",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😳 ",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😡",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😔",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😫",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😱",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😭",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "💩",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "👻",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "🙌",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "🖕",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "👍",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "👫",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "👬",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "👭",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "🌚",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "🌝",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "🙈",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "💊",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😶",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "🙏",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "🍦",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "🍉",
+                "text": "",
+                    "write": "OωO"
+            },
+            {
+                "icon": "😣",
+                "text": "",
+                "write": "OωO"
+            }
+        ]
+    },
+    "图片表情": {
+        "type": "image",
+        "container": [
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker1.jpg\">",
+                "text": "沉默",
+                "raw": ":[沉默]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker2.jpg\">",
+                "text": "抽烟",
+                "raw": ":[抽烟]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker3.jpg\">",
+                "text": "woc",
+                "raw": ":[woc]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker4.jpg\">",
+                "text": "流泪",
+                "raw": ":[流泪]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker5.jpg\">",
+                "text": "大笑",
+                "raw": ":[大笑]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker6.png\">",
+                "text": "偷笑",
+                "raw": ":[偷笑]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker7.jpg\">",
+                "text": "滑稽颓废",
+                "raw": ":[滑稽颓废]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker8.jpg\">",
+                "text": "滑稽躲桌",
+                "raw": ":[滑稽躲桌]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker9.jpg\">",
+                "text": "滑稽沉默",
+                "raw": ":[滑稽沉默]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker10.png\">",
+                "text": "滑稽喝茶",
+                "raw": ":[滑稽喝茶]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker11.jpg\">",
+                "text": "吐血",
+                "raw": ":[吐血]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker12.jpg\">",
+                "text": "可了不得",
+                "raw": ":[可了不得]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker13.jpg\">",
+                "text": "啧",
+                "raw": ":[啧]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker14.jpg\">",
+                "text": "喝茶",
+                "raw": ":[喝茶]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker15.jpg\">",
+                "text": "震惊",
+                "raw": ":[震惊]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker16.jpg\">",
+                "text": "捂脸",
+                "raw": ":[捂脸]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker17.jpg\">",
+                "text": "doge滑稽",
+                "raw": ":[doge滑稽]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker18.jpg\">",
+                "text": "doge饮料",
+                "raw": ":[doge饮料]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker19.jpg\">",
+                "text": "忍住哭泣",
+                "raw": ":[忍住哭泣]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker20.jpg\">",
+                "text": "惊恐无比",
+                "raw": ":[惊恐无比]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker21.jpg\">",
+                "text": "捂眼",
+                "raw": ":[捂眼]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker22.jpg\">",
+                "text": "买吧不贵",
+                "raw": ":[买吧不贵]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker23.jpg\">",
+                "text": "失礼了",
+                "raw": ":[失礼了]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker24.jpg\">",
+                "text": "很可以了",
+                "raw": ":[很可以了]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker25.jpg\">",
+                "text": "擦汗",
+                "raw": ":[擦汗]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker26.jpg\">",
+                "text": "没技术也没钱",
+                "raw": ":[没技术也没钱]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker27.jpg\">",
+                "text": "鹦鹉兄弟",
+                "raw": ":[鹦鹉兄弟]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker28.jpg\">",
+                "text": "斜眼",
+                "raw": ":[斜眼]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker29.png\">",
+                "text": "滑稽",
+                "raw": ":[滑稽]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker30.jpg\">",
+                "text": "共产滑稽",
+                "raw": ":[共产滑稽]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker31.jpg\">",
+                "text": "躲进小被几",
+                "raw": ":[躲进小被几]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker32.jpg\">",
+                "text": "doge从容",
+                "raw": ":[doge从容]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker33.jpg\">",
+                "text": "击掌",
+                "raw": ":[击掌]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker34.png\">",
+                "text": "",
+                "raw": ":[sticker34]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker39.jpg\">",
+                "text": "吃糖",
+                "raw": ":[吃糖]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker35.jpg\">",
+                "text": "阿卡林",
+                "raw": ":[阿卡林]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker36.jpg\">",
+                "text": "阿卡林~",
+                "raw": ":[阿卡林~]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker37.jpg\">",
+                "text": "大触过敏",
+                "raw": ":[大触过敏]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker38.jpg\">",
+                "text": "你不会搜索吗",
+                "raw": ":[你不会搜索吗]"
+                }
+            ]
+        },
+        "动图": {
+        "type": "image",
+        "container": [
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker1.gif\">",
+                "text": "Doge",
+                "raw": ":[doge]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker2.gif\">",
+                "text": "噗噗个噗",
+                "raw": ":[噗噗个噗]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker3.gif\">",
+                "text": "旋转跳跃",
+                "raw": ":[旋转跳跃]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker4.gif\">",
+                "text": "动耳神功",
+                "raw": ":[动耳神功]",
+                "write": "OωO"
+            },
+            {
+                "icon": "<img src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/stickers/sticker5.gif\">",
+                "text": "捣药",
+                "raw": ":[捣药]",
+                "write": "OωO"
+            }
+        ]
+    },
+        "其他": {
+        "type": "other",
+        "container": [
+            {
+                "icon": "超链接",
+                "text": "普通的超链接",
+                "raw": "[链接标题](http://domain.com)",
+                "write": "OωO"
+            },
+            {
+                "icon": "图片",
+                "text": "普通的一张图片",
+                "raw": "![图片标题](图片地址)",
+                "write": "OωO"
+            },
+            {
+                "icon": "引用",
+                "text": "插入一个引用",
+                "raw": "> 这是一段引用",
+                "write": "OωO"
+            }
+        ]
+    }
+}
