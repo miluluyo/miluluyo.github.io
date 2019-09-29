@@ -775,20 +775,20 @@
             {
                 "icon": "超链接",
                 "text": "普通的超链接",
-                "raw": "[链接标题](http://domain.com)",
-                "write": "[链接标题](http://domain.com)"
+                "raw": "[url=链接]链接标题[/url]",
+                "write": "[url=链接]链接标题[/url]"
             },
             {
                 "icon": "图片",
                 "text": "普通的一张图片",
-                "raw": "![图片标题](图片地址)",
-                "write": "![图片标题](图片地址)"
+                "raw": "[img]图片地址[/img]",
+                "write": "[img]图片地址[/img]"
             },
             {
                 "icon": "引用",
                 "text": "插入一个引用",
-                "raw": "> 这是一段引用",
-                "write": "> 这是一段引用"
+                "raw": "[quote]这是一段引用[/quote]",
+                "write": "[quote]这是一段引用[/quote]"
             }
         ]
     }
