@@ -27,7 +27,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m "deploy"
+git commit -m "deploy" 
 git push -f git@github.com:miluluyo/miluluyo.github.io.git master:gh-pages
 # deploy to coding
 #echo 'www.miluluu.com\miluluu.com' > CNAME  # 自定义域名
