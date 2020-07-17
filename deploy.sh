@@ -11,12 +11,12 @@ cd docs/.vuepress/dist
 
 # deploy to github
 echo 'b.miluluyo.github.io' > CNAME
-if [ -z "$GITHUB_TOKEN" ]; then
+if [ -z "$VDOING" ]; then
   msg='deploy'
   githubUrl=git@github.com:miluluyo/miluluyo.github.io.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://miluluyo:${GITHUB_TOKEN}@github.com/miluluyo/miluluyo.github.io.git
+  githubUrl=https://miluluyo:${VDOING}@github.com/miluluyo/miluluyo.github.io.git
   git config --global user.name "miluluyo"
   git config --global user.email "miluluyo@163.com"
 fi
