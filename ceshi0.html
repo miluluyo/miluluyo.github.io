@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+	<title>SOUNDPEATS</title>
+	<!-- 引入样式 -->
+	<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<style type="text/css">
+
+#app{margin: 40px auto;line-height: 1.5;padding: 24px;border-width: thin;display: block;max-width: 100%;outline: none;text-decoration: none;transition-property: box-shadow, opacity;word-wrap: break-word;position: relative;white-space: normal;border-radius: 8px !important;box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);background-color: #fff;color: #252629;max-width: 866px;}
+.el-checkbox{width: calc(100% - 16px);margin-bottom: 15px;margin: 0;padding-left: 16px;margin-top: 10px;display: block;}
+.el-checkbox, .el-checkbox__input {white-space: initial;}
+.el-checkbox__label{width: calc(100% - 30px);vertical-align: top;line-height: 25px;font-size: 14px;}
+.red{color: red}
+.mt{margin-top: 20px;}
+.el-form-item__content{line-height: 25px;}
+.el-form-item{margin-bottom: 0;margin-top: 20px;}
+@media (max-width: 867px) {
+    #app {
+        margin: 0;
+	    box-shadow: none;
+	    margin: 0;
+	    border: 0;
+    }
+}
+</style>
+</head>
+<body>
+	<div id="app">
+	    <el-form :model="ruleForm" :rules="rules" ref="ruleForm" class="demo-ruleForm">
+	    	<div style="font-size: 24px;font-weight: 600;margin: 0px auto 20px;text-align: center;">
+	    		Escalate Your Case
+	    	</div>
+	    	<div class="" style="font-weight: 800;"><span class="red">*</span> Please advise why you'd like to escalate this case:</div>
+	    	<el-form-item label="" prop="type">
+			    <el-checkbox-group v-model="ruleForm.type">
+			      <el-checkbox label="1" name="type">The customer service rep doesn't understand the question/situation</el-checkbox>
+			      <el-checkbox label="2" name="type">The customer service rep's attitude is not acceptable</el-checkbox>
+			      <el-checkbox label="3" name="type">The message is too long/cumbersome to understand</el-checkbox>
+			      <el-checkbox label="4" name="type">The information needed is difficult to provide</el-checkbox>
+			      <el-checkbox label="5" name="type">The response time/solution speed is too slow</el-checkbox>
+			      <el-checkbox label="6" name="type">The refund/warranty policy is unacceptable</el-checkbox>
+			      <el-checkbox label="7" name="type">Other</el-checkbox>
+			    </el-checkbox-group>
+		  	</el-form-item>
+		    <el-input
+		      v-if="(ruleForm.type).indexOf('7')!=-1"
+		      v-model="ruleForm.feedbackContent"
+			  placeholder="Please enter Other"
+			  clearable>
+			</el-input>
+	    	<div class="" style="font-weight: 800;margin: 25px 0 0;">Leave your email address, our management team will contact you soon.</div>
+	    	<el-form-item label="" prop="email">
+			    <el-input
+			    	type="email"
+				  placeholder="Please enter your email address" v-model="ruleForm.email"
+				  clearable>
+				</el-input>
+		  	</el-form-item>
+		  	<el-form-item class="mt20" style="margin-top: 20px;text-align: center;">
+			    <el-button type="primary" @click="submitForm('ruleForm')" style="width: 80%;">Submit</el-button>
+		  	</el-form-item>
+
+	    </el-form>
+  	</div>
+</body>
+<script src="vue.js"></script>
+<!-- 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/axios/0.27.2/axios.min.js"></script>
+<script>
+	var addxkq = `http://106.52.57.173:8081/emailFeedback/add.xkq`
+    new Vue({
+      el: '#app',
+      data: function() {
+        return { 
+        	ruleForm:{
+        		type: [],
+        		email:"",
+        		feedbackContent:""
+        	},
+        	rules: {
+        		email:[
+        			{ type: 'email', message: 'Please enter the correct email address', trigger: ['blur', 'change'] }
+        		],
+	          	type: [
+		            { type: 'array', required: true, message: `Value is required and can't be empty`, trigger: 'change' }
+	          	],
+        	}
+        }
+      },
+	    methods: {
+	      submitForm(formName) {
+	      	let that = this;
+	      	let type = this.ruleForm.type
+	        this.$refs[formName].validate((valid) => {
+	          if (valid) {
+	            axios.get(addxkq,{
+		            params:{
+		            	feedbackType:type.join(','),
+		            	email:that.ruleForm.email,
+	            		feedbackContent:that.ruleForm.feedbackContent
+	            	}
+	            })
+				  .then(function (response) {
+				    if(response.data.success){
+				    	that.$message({
+				          message: 'Submitted successfully!',
+				          type: 'success'
+				        });
+				        that.resetForm('ruleForm')
+				    }else{
+				    	that.$message.error(response.data.msg);
+				    }
+				  })
+				  .catch(function (error) {
+			    	that.$message.error(`error submit!`);
+				  });
+	          } else {
+		    	that.$message.error(`error submit!`);
+	            return false;
+	          }
+	        });
+	      },
+	      resetForm(formName) {
+	        this.$refs[formName].resetFields();
+	      }
+	    }
+    })
+  </script>
+</html>
